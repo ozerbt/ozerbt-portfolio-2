@@ -31,13 +31,13 @@ const Contact = () => {
     setLoading(true)
 
     emailjs.send(
-      'service_5kpmpkp',
-      'template_sntmj6h',
+      process.env.SERVICE_ID,
+      process.env.TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: 'Behcet',
         from_email: form.email,
-        to_email: 'behcetozer123@gmail.com',
+        to_email: process.env.MY_EMAIL,
         message: form.message
       },
       'XGBatteNxnhiU2jXe').then(() => {
