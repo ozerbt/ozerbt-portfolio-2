@@ -29,7 +29,6 @@ import python from "./tech/python.png"
 import sql from "./tech/sql.png"
 import itsc from "./company/itsc.png"
 import angular from "./tech/angular.png"
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -63,5 +62,4 @@ export {
   pni,
   typescript,
   threejs,
-  tripguide,
 };
